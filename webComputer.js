@@ -1,23 +1,18 @@
 console.log('webComputer loaded ...');
 
-WebComputer=function(div){
+webComputer=function(){
+    console.log('ini')
+    if(document.getElementById('webComputerDiv')){
+        webComputer.bookCover(document.getElementById('webComputerDiv'))
+    }
+}
 
-this.Book=function(){
+
+webComputer.bookCover=function(div){
     var h = '<h1 style="color:maroon">Data Science for<br> the WebComputer</h1>'
-    h +='...'
-    this.div.innerHTML=h
-
-
+    h +='<h5><i>Jonas S Almeida, March 2017 - ...</i></h4>'
+    div.innerHTML=h
 }
 
-// ini
-console.log('ini')
-if(div=='webComputerDiv'){
-    this.div = document.getElementById('webComputerDiv')
-    this.Book()
-}
 
-};
-
-webComputer = new WebComputer('webComputerDiv')
-
+webComputer()
