@@ -1,7 +1,9 @@
 {
-  "authors":"Almeida JS, Hajagos J, Crnosija I, Kurc T, Saltz M, Saltz J",
+  "author":"Almeida JS, Hajagos J, Crnosija I, Kurc T, Saltz M, Saltz J",
   "title":"OpenHealth Platform for Interactive Contextualization of Population Health Open Data",
   "pub":"AMIA Annu Symp Proc. 2015 Nov 5;2015:297-305",
-  "html":"Almeida JS, Hajagos J, Crnosija I, Kurc T, Saltz M, Saltz J. OpenHealth Platform for Interactive Contextualization of Population Health Open Data. AMIA Annu Symp Proc. 2015 Nov 5;2015:297-305. PubMed PMID: 26958160; PubMed Central PMCID: PMC4765591.",
-  "PMID":"26958160"
+  "html":"Almeida JS, Hajagos J, Crnosija I, Kurc T, Saltz M, Saltz J. (2015) OpenHealth Platform for Interactive Contextualization of Population Health Open Data. AMIA Annu Symp Proc. 2015 Nov 5;2015:297-305. PubMed PMID: 26958160; PubMed Central PMCID: PMC4765591.",
+  "PMID":"26958160",
+  "url":"https://www.ncbi.nlm.nih.gov/pubmed/26958160",
+  "year":2015
 }
