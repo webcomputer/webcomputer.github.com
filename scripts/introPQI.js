@@ -14,7 +14,9 @@ console.log('loaded introPQI.js');
                     for(var i = 0; i<h4.length ; i++){
                         h4[i].style.fontSize=14
                     }
-                    clearInterval(fun.t)
+                    setTimeout(function(){ // keep scaning for another 5 seconds
+                        clearInterval(fun.t)
+                    },5000)
                     //debugger
                 }
             },1000)
