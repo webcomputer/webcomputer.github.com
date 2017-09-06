@@ -1,0 +1,10 @@
+{
+ "author" : "Wilkinson MD, M Dumontier, IJ Aalbersberg, G Appleton, M Axton, A Baak, N Blomberg, JW Boiten, LBS Santos, PE Bourne, J Bouwman, AJ Brookes, T Clark, M Crosas, I Dillo, O Dumon, S Edmunds, CT Evelo, R Finkers, A Gonzalez-Beltran, AJG Gray, P Groth, C Goble, JS Grethe, J Heringa, PAC Hoen, R Hooft, T Kuhn, R Kok, J Kok, SJ Lusher, ME Martone, A Mons, AL Packer, B Persson, P Rocca-Serra, M Roos, R Schaik, SA Sansone, E Schultes, T Sengstag, T Slater, G Strawn, MA Swertz, M Thompson, J van der Lei, E van Mulligen, J Velterop, A Waagmeester, P Wittenburg, K Wolstencroft, J Zhao, B Mons",
+ "title" : "The FAIR Guiding Principles for scientific data management and stewardship",
+ "pub" : "Scientific Data",
+ "year" :2006,
+ "url" : "http://dx.doi.org/10.1038/sdata.2016.18",
+ "DOI": "10.1038/sdata.2016.18",
+ "PMID":"26978244",
+ "html" : "Wilkinson MD, M Dumontier, ... , J Zhao, B Mons (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3:160018."
+}

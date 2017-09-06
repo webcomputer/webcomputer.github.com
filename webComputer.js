@@ -15,6 +15,7 @@ webComputer.book=function(div,path){
          h = h.replace(/<ref>([^<]+)<\/ref>/g,'<span id="$1" class="webBookRef">$1</span>')
          div.innerHTML=h
          webComputer.refs(div)
+         webComputer.scripts(div)
      })
 }
 
@@ -50,6 +51,17 @@ webComputer.refs=function(div){ // references ref/<fn>.json
         r.textContent='['+ind[r.id]+']' // add links here at some point
         r.style.color='blue'
     })
+}
+
+webComputer.scripts=function(div){
+    div.innerHTML.match(/<script src="[^"]+"><\/script>/g).forEach(function(src){
+        src = src.replace(/<script src="([^"]+)"><\/script>/,'$1')
+        var s = document.createElement('script')
+        s.src = src
+        document.head.appendChild(s)
+        //debugger
+    })
+    //debugger
 }
 
 
