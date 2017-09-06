@@ -11,9 +11,9 @@ console.log('loaded introPQI.js');
                 console.log('checking for pqi loading ',Date())
                 if($('h4',openHealthJob).length>0){
                     h4 = $('h4',openHealthJob)
-                    h4.forEach(function(h){
-                       h.style.fontSize=14
-                    })
+                    for(var i = 0; i<h4.length ; i++){
+                        h4[i].style.fontSize=14
+                    }
                     clearInterval(fun.t)
                     //debugger
                 }
