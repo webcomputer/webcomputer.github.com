@@ -13,6 +13,7 @@ webComputer.book=function(div,path){
      .then(function(h){
          // parse references before inserting innerHTML
          h = h.replace(/<ref>([^<]+)<\/ref>/g,'<span id="$1" class="webBookRef">$1</span>')
+         h = h.replace(/[\s\n]+/g,' ')
          div.innerHTML=h
          webComputer.refs(div)
          webComputer.scripts(div)
