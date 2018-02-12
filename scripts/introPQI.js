@@ -9,7 +9,7 @@ console.log('loaded introPQI.js');
             // restyle head
             fun.t = setInterval(function(){
                 console.log('checking for pqi loading ',Date())
-                if($('h4',openHealthJob).length>0){
+                if($('#openHealthJob').length>0){
                     h4 = $('h4',openHealthJob)
                     for(var i = 0; i<h4.length ; i++){
                         h4[i].style.fontSize=14
